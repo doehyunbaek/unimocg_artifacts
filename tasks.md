@@ -14,7 +14,7 @@ Here’s a runnable checklist your Reproducibility Agents can follow to verify t
 * [ ] **Start the container (detached, so you can exec into it later)**
 
   ```bash
-  sudo docker run -d --name unimocg-container unimocgimage sleep infinity
+  sudo docker run -d --name unimocg-container unimocgimage
   ```
 * [ ] **Inside the container, run the OPAL immutability analysis**
 
